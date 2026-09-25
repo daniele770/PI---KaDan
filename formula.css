@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    aspect-ratio: 1254 / 592; 
+    background-image: url("logo\ novo.png");
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1rem;
+    background: linear-gradient(45deg,#09ff00, black );
+    color: #000000;
+    text-align: center;
+}
+
+.tit {
+     font-size: 80px;
+    background: linear-gradient(45deg, black, #3c3c3c, black);
+    color: #08f800;
+    text-align: center;
+    font-family: "Apple Chancery";
+    letter-spacing: 2px;
+}
+
+h4 {
+   color: #000000;
+    background: linear-gradient(45deg, #3c3c3c, #cbcbcb, white);
+    margin: 8px;
+    padding: 0.5rem;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.logo-img {
+    width: 100%; 
+    max-width: 1254px; 
+    aspect-ratio: 1254 / 1254; 
+    object-fit: contain; 
+}
+ 
+h1 {
+    text-align: center;
+    color: #070707;
+    font-size: 50px;
+  font-family: "Apple Chancery";
+  text-align: center;
+  letter-spacing: 2px;
+}
+       
+button {
+    width: 100%;
+    padding: 16px;
+    background-color: black;
+    color: #09ff00;
+    border: none;
+    border-radius: 50px; 
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #09ff00;
+    color: black;
+}
+
+.area-login {
+    position: relative; 
+    width: 100%;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden; 
+    padding: 20px;
+}
+
+
+#video-fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1; 
+}
+
+.caixa-login {
+    position: relative;
+    z-index: 2; 
+    background: linear-gradient(45deg, rgba(60, 60, 60, 0.5), rgba(203, 203, 203, 0.5), rgba(255, 255, 255, 0.5), rgba(203, 203, 203, 0.5), rgba(60, 60, 60, 0.5));
+    padding: 35px;
+    border: 2px solid #09ff00;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 500px; 
+    text-align: center;
+}
+
+.caixa-login input {
+    width: 100%; 
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #09ff00;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95); 
+    color: #000000;
+}
+
+.link{
+    display: block;
+    width: 100%; 
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;  
+    padding: 1%;
+    margin: 0px;
+    text-align: center;
+    border-radius: 0px;
+}
+
+.link a {
+    color: #09ff00; 
+    text-decoration: none; 
+    margin-left: 5px; 
+}
+
+.foo{
+  background-color: #09ff00;
+  color: black;
+  padding: 15px 1%; 
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 0px;
+}
+
+.foo p {
+  margin: 2px;
+}
+
+.foo a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+.foo a:hover {
+   color: #105000;
+}
